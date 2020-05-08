@@ -9,11 +9,11 @@ const Contact = () => {
       </h2>
       <p>
         LinkedIn:
-        <a href='https://www.linkedin.com/in/bella-cockrell/' alt='bella-cockrell'>
+        <a href='https://www.linkedin.com/in/bella-cockrell/' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
           bella-cockrell
         </a> <br />
         Github:
-        <a href='https://github.com/bella-cockrell' alt='bella-cockrell'>
+        <a href='https://github.com/bella-cockrell' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
           bella-cockrell
         </a>
       </p>

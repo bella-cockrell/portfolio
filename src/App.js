@@ -11,37 +11,33 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+      <body>
+        <header>
+          <h1> Hi, I'm Bella Cockrell </h1>
+        </header>
+        <nav>
+        </nav>
 
-      <header>
-        <h1> Hi, I'm Bella Cockrell </h1>
-      </header>
-      <nav>
-        Home
-        Experience
-        Projects
-      </nav>
+        <sidebar className='card'>
+          <SVGLogo />
+          <article>
+            <AboutMe />
+          </article>
+          <article>
+            <Contact />
+          </article>
+          <article>
+            <Skills />
+          </article>
+        </sidebar>
 
-      <sidebar>
-        <SVGLogo />
-        <article>
-          <AboutMe />
+        <article className='container'>
+          <Experience />
+          <Projects />
         </article>
-        <article>
-          <Contact />
-        </article>
-        <article>
-          <Skills />
-        </article>
-      </sidebar>
 
-      <article>
-        <Experience />
-        <Projects />
-      </article>
-
-      <footer>
-        This is the footer
-      </footer>
+        <footer />
+      </body>
     </div >
   );
 }
