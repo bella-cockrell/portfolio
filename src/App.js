@@ -1,5 +1,6 @@
 import React from 'react';
 import Experience from './Pages/Experience';
+import Projects from './Pages/Projects';
 import AboutMe from './Pages/AboutMe';
 import Contact from './Pages/Contact';
 
@@ -14,6 +15,7 @@ function App() {
         <Contact />
       </article>
       <Experience />
+      <Projects />
     </div>
   );
 }
