@@ -10,7 +10,7 @@ const Contact = () => {
         LinkedIn:
         <a href='https://www.linkedin.com/in/bella-cockrell/' alt='bella-cockrell'>
           bella-cockrell
-        </a>
+        </a> <br />
         Github:
         <a href='https://github.com/bella-cockrell' alt='bella-cockrell'>
           bella-cockrell
