@@ -1,4 +1,5 @@
 import React from 'react';
+// import Alert from './Components/Alert';
 import Experience from './Pages/Experience';
 import SVGLogo from './Components/SVGLogo';
 import Skills from './Components/Skills';
@@ -11,9 +12,10 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
+      {/* <Alert /> */}
       <body>
         <header>
-          <h1> Hi, I'm Bella Cockrell </h1>
+          <h1> Hi, I'm <span style={{ color: '#2a9d8f' }}>Bella Cockrell</span></h1>
         </header>
         <nav>
         </nav>

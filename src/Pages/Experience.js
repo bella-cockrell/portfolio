@@ -13,7 +13,8 @@ const Experience = () => {
       <div>
         Currently working full-time with a team of back- and
         frontend developers creating an MVP that allows users to log their
-        climbing sessions. Technologies → React with Material UI and Styled
+        climbing sessions. <br />
+        <strong>Technologies →</strong> React with Material UI and Styled
         Components, HTML5, CSS3, Javascript, Typescript, Git.
       </div>
       <strong>

@@ -7,7 +7,7 @@ const Skills = () => {
       <h2>Skills</h2>
       <div className='skills'>
         <div>
-          <strong>→ Intermediate</strong><br />
+          <p>→ Intermediate</p>
           <ul>
             <li>React</li>
             <li>Javascript</li>
@@ -18,7 +18,7 @@ const Skills = () => {
           </ul>
         </div>
         <div>
-          <strong>→ Beginner</strong><br />
+          <p>→ Beginner</p>
           <ul>
             <li>Typescript</li>
             <li>Heroku</li>

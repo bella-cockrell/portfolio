@@ -17,7 +17,7 @@ const Projects = () => {
         <strong>Technologies → </strong>React, HTML5, CSS3, Javascript, Git.
       </p>
       <p>
-        <strong>Github Finder(April 2020 – present)</strong><br />
+        <strong>Github Finder (April 2020 – present)</strong><br />
         <a href='https://github.com/bella-cockrell/github-finder'
           alt='link to Github' target='_blank' rel="noopener noreferrer">Github
         </a><br />
@@ -27,7 +27,7 @@ const Projects = () => {
         React, HTML5, CSS3, Node.js, MongoDB, Express.js, Git.
       </p>
       <p>
-        <strong>Eyeflix(January 2020 – present)</strong><br />
+        <strong>Eyeflix (January 2020 – present)</strong><br />
         <a href='http://kodflix-bella.herokuapp.com/'
           alt='link to Heroku page' target='_blank' rel="noopener noreferrer"> Heroku website
         </a><br />

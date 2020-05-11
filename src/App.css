@@ -14,7 +14,7 @@
 
 .App{
   height: 100%;
-  background-color: var(--warm-dark);
+  background-color: var(--cool-light);
 }
 
 * {
@@ -32,9 +32,10 @@ h1, h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
-  text-decoration-color: none;
+  font-style: oblique;
+  color: inherit;
 }
 
 a:hover {
@@ -81,6 +82,11 @@ footer {
   padding-bottom: 2em;
 }
 
+.card p, ul {
+  color: var(--cool-dark-text);
+  list-style: none;
+}
+
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -91,4 +97,12 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 1em;
+}
+
+.container h1 {
+ color: var(--cool-light-header);
+}
+
+.container div {
+  color: var(--cool-light-text);
 }
