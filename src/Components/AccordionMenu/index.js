@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { AccordionWrapper, InternalWrapper } from './styles.js';
+import { Button, AccordionWrapper, InternalWrapper } from './styles.js';
 
-const Accordion = () => {
+const Accordion = ({ title, content }) => {
   const [open, setOpen] = useState(false);
   const handleClick = () => {
     setOpen(!open);
   };
   return (
     <AccordionWrapper>
-      <button padding='4px' onClick={handleClick}>
-        <h2>About Me</h2>
-      </button>
+      <Button onClick={handleClick} bgcolor='red'>
+        <h1>{title}</h1>
+      </Button>
       <InternalWrapper open={open}>
-        <p>info about me</p>
+        {content}
       </InternalWrapper>
     </AccordionWrapper>
   );
