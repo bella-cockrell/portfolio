@@ -4,7 +4,7 @@ export const AccordionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: yellow;
+  background-color: red;
   border-radius: 10px;
   height: auto;
   padding: 2%;

@@ -8,7 +8,7 @@ const Accordion = () => {
   };
   return (
     <AccordionWrapper>
-      <button padding='5px' onClick={handleClick}>
+      <button padding='4px' onClick={handleClick}>
         <h2>About Me</h2>
       </button>
       <InternalWrapper open={open}>
