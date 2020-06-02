@@ -10,11 +10,11 @@ const Contact = () => {
       <p>
         LinkedIn:
         <a href='https://www.linkedin.com/in/bella-cockrell/' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
-          bella-cockrell
+          <br />bella-cockrell
         </a> <br />
         Github:
         <a href='https://github.com/bella-cockrell' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
-          bella-cockrell
+          <br />bella-cockrell
         </a>
       </p>
     </div>
