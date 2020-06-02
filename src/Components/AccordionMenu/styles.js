@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
+export const Button = styled.button`
+  background-color: ${(props) => (props.bgcolor)};
+
+
+`
+
 export const AccordionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: red;
-  border-radius: 10px;
+  background-color: inherit;
   height: auto;
   padding: 2%;
   text-align: center;
