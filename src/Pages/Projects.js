@@ -4,7 +4,6 @@ import '../App.css';
 const Projects = () => {
   return (
     <div>
-      <h1>Projects</h1>
       <p>
         <strong>What’s In? (April 11th – 12th 2020)</strong><br />
         <a

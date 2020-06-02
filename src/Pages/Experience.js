@@ -4,9 +4,6 @@ import '../App.css';
 const Experience = () => {
   return (
     <div>
-      <h1>
-        Experience
-      </h1>
       <strong>
         Frontend dev at BoulderBook (April 2020 – present)
       </strong>

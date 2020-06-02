@@ -4,7 +4,6 @@ import '../App.css';
 const Skills = () => {
   return (
     <div >
-      <h2>Skills</h2>
       <div className='skills'>
         <div>
           <p>→ Intermediate</p>
