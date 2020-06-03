@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, AccordionWrapper, InternalWrapper } from './styles.js';
+import { Button, AccordionWrapper, InternalWrapper } from './AccordionStyles.js';
 
 const Accordion = ({ title, content }) => {
   const [open, setOpen] = useState(false);
@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
   };
   return (
     <AccordionWrapper>
-      <Button onClick={handleClick} bgcolor='red'>
+      <Button onClick={handleClick}>
         <h1>{title}</h1>
       </Button>
       <InternalWrapper open={open}>

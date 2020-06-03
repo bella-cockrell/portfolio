@@ -1,11 +1,11 @@
 import React from 'react';
-import Accordion from './index';
-import Pages from '../../Pages/Pages';
+import Accordion from './Accordion';
+import getPages from '../../Pages/GetPages';
 
 const Menu = () => {
   return (
     <div> {
-      Pages().map(page => (
+      getPages().map(page => (
         <Accordion
           title={page.title}
           content={page.content}
