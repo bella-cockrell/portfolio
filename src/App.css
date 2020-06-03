@@ -19,8 +19,7 @@
 }
 
 .App{
-  background-color: var(--warm-light);
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -30,21 +29,28 @@
 
 /*Semantic styles*/
 header {
-  background-color: var(--warm-light);
+  height: 30%;
+  width: 100%;
   color: var(--cool-dark);
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   padding: 1em;
+  align-items: center;
+}
+
+img {
+  max-width: 30%;
 }
 
 body {
+  background-color: var(--warm-light);
   height: 100%;
 }
 
 footer {
-  background-color: var(--cool-light);
+  background-color: var(--warm-dark);
   width: 100%;
-  height: 4vh;
+  margin-top: 5em;
   display: flex;
   justify-content: center;
   z-index: 1;
