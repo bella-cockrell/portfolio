@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './Components/logo.svg';
+import Logo from './Images/logo.svg';
 import './App.css';
 import Menu from './Components/AccordionMenu/Menu';
 
