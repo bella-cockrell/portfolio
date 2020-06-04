@@ -25,7 +25,7 @@ export const AccordionWrapper = styled.div`
 export const InternalWrapper = styled.div`
   width: 100%;
   padding: 0 2% 0 2%;
-  max-height: ${(props) => (props.open ? '500px' : '0')};
+  max-height: ${(props) => (props.open ? '750px' : '0')};
   transition: all 0.3s ease-in-out;
   overflow: hidden;
 `;
