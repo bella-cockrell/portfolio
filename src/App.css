@@ -64,3 +64,13 @@ h1, h2 {
 p {
   font-family: 'Roboto', sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
+
+/*Other styles*/
+
+.skill-card {
+  display: flex;
+}
