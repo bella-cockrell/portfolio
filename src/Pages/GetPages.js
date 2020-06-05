@@ -1,52 +1,72 @@
 import React from 'react';
 
+//Mockups
+import KodflixMockup from '../Components/Mockups/KodflixMockup';
+
+//Images
+import CSS from '../Images/css.svg';
+import Express from '../Images/express.png';
+import Figma from '../Images/figma.png';
+import Git from '../Images/git.png';
+import HTML from '../Images/html5.svg';
+import JS from '../Images/javascript.png';
+import MongoDB from '../Images/mongodb.png';
+import Netlify from '../Images/netlify.png';
+import NodeJS from '../Images/nodejs.png';
+import Python from '../Images/python.png';
+import ReactLogo from '../Images/react.png';
+import TS from '../Images/typescript.png';
+
 const getPages = () => {
   return (
     [{
       title: 'About Me',
-      content: 'I am a frontend dev with a keen spirit and an eye for design. I like always to improve my knowledge by challenging myself and learn new technologies.'
+      content:
+        <div className='about-me-card'>
+          <p>
+            I'm a Junior JavaScript/React Developer with experience working with
+            external libraries (Material UI, Gatsby, Leaflet, styled-components)
+            and APIs. My special interest is in accessibility, animations and UX/UI
+            functionality.
+        </p>
+          <p>
+            I relish the opportunity to collaborate and meet with other developers,
+            and regularly attend relevant London based meet-ups, events or conferences,
+            like Codebar, React.js Girls, Microsoft Build and Women Driven Development.
+        </p>
+          <p>
+            In my spare time you can find me playing video games, strumming the banjo,
+            embroidering or starting yet another project on my GitHub.
+        </p>
+        </div>
     },
     {
       title: 'Skills',
       content:
-        <div>
+        <div className='skill-card'>
           <div>
-            <p>→ Intermediate</p>
+            <strong>Intermediate</strong>
             <ul>
-              <li>React</li>
-              <li>Javascript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Git</li>
-              <li>Figma</li>
+              <li>React</li><img src={ReactLogo} />
+              <li>Javascript</li><img src={JS} />
+              <li>HTML5</li><img src={HTML} />
+              <li>CSS3</li><img src={CSS} />
+              <li>Git</li><img src={Git} />
+              <li>Figma</li><img src={Figma} />
             </ul>
           </div>
           <div>
-            <p>→ Beginner</p>
+            <strong>Beginner</strong>
             <ul>
-              <li>Typescript</li>
-              <li>Heroku</li>
-              <li>Node.js</li>
-              <li>MongoDB</li>
-              <li>Express.js</li>
-              <li>Python</li>
+              <li>Typescript</li><img src={TS} />
+              <li>Netlify</li><img src={Netlify} />
+              <li>Node.js</li><img src={NodeJS} />
+              <li>MongoDB</li><img src={MongoDB} />
+              <li>Express.js</li><img src={Express} />
+              <li>Python</li><img src={Python} />
             </ul>
           </div>
         </div>
-    },
-    {
-      title: 'Contact',
-      content:
-        <p>
-          LinkedIn:
-            <a href='https://www.linkedin.com/in/bella-cockrell/' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
-            <br />bella-cockrell
-            </a> <br />
-          Github:
-            <a href='https://github.com/bella-cockrell' alt='bella-cockrell' target='_blank' rel="noopener noreferrer">
-            <br />bella-cockrell
-            </a>
-        </p>
     },
     {
       title: 'Experience',
@@ -107,10 +127,11 @@ const getPages = () => {
         React, HTML5, CSS3, Node.js, MongoDB, Express.js, Git.
       </p><br />
         <p>
-          <strong>Eyeflix (January 2020 – present)</strong><br />
+          <strong>Kodflix (January 2020 – present)</strong><br />
           <a href='http://kodflix-bella.herokuapp.com/'
             alt='link to Heroku page' target='_blank' rel="noopener noreferrer"> Heroku website
         </a><br />
+          <KodflixMockup />
         As part of the Kodiri React bootcamp, I learned how to use React and
         developed a Netflix clone, from design to deployment.<br />
           <strong>Technologies → </strong>
