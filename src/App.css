@@ -35,6 +35,7 @@ header {
   display: flex;
   flex-direction: row;
   padding: 1em;
+  margin-bottom: 5%;
   align-items: center;
 }
 
@@ -45,15 +46,6 @@ img {
 body {
   background-color: var(--warm-light);
   height: 100%;
-}
-
-footer {
-  background-color: var(--warm-dark);
-  width: 100%;
-  margin-top: 5em;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
 }
 
 /*Font styles*/
@@ -71,6 +63,29 @@ ul {
 
 /*Other styles*/
 
+.contact-card {
+  display: flex;
+  justify-content: center;
+  height: 25%;
+}
+
+.contact-card a {
+  width: 33%;
+}
+
+.contact-card img {
+  margin-left: 35%;
+}
+
+.about-me-card {
+  padding: 10px 10px 0 10px;
+}
+
+.about-me-card p {
+  margin-bottom: 10px;
+}
+
 .skill-card {
   display: flex;
+  padding: 10px 10px 0 10px;
 }
