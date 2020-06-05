@@ -7,7 +7,7 @@ export const Button = styled.button`
   outline: none;
   background-color: #264653;
   color: #add8e6;
-  padding: 10px 10px 10px 10px;
+  padding: 25px 10px 25px 10px;
 `
 
 export const AccordionWrapper = styled.div`
@@ -17,13 +17,15 @@ export const AccordionWrapper = styled.div`
   background-color: inherit;
   height: auto;
   width: 100%;
-  padding: 2% 0 2% 0;
+  padding: 5% 0 2% 0;
   text-align: center;
   transition: all 0.3s ease-in-out;
 `;
 
 export const InternalWrapper = styled.div`
   width: 100%;
+  background-color: #2a9d8f;
+  color: #002627;
   padding: 0 2% 0 2%;
   max-height: ${(props) => (props.open ? '750px' : '0')};
   transition: all 0.3s ease-in-out;
