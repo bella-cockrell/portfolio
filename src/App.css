@@ -14,13 +14,17 @@
 
 .App{
   height: 100%;
-  background-color: var(--cool-light);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  height: 100%;
+  background-color: var(--cool-light);
 }
 
 body {
@@ -34,57 +38,50 @@ h1, h2 {
 
 a, a:visited {
   text-decoration: none;
-  font-style: oblique;
   color: inherit;
-}
-
-a:hover {
-  color: var(--warm-dark);
+  margin: 0.5em;
+  font-weight: 800;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
 }
 
-img {
-  width: 60%;
-}
-
 header {
   background-color: var(--warm-light);
   color: var(--cool-dark);
   display: flex;
-  flex-direction: row-reverse;
+  text-align: end;
   padding: 1em;
 }
 
-article h2 {
-  color: var(--cool-dark-header);
+main {
+  height: 100%;
 }
 
-footer {
-  display: flex;
-  width: 100%;
-  height: 30px;
-  background-color: var(--warm-light);
-  padding: 1em;
-}
-
-.card {
+sidebar {
+  height: 100%;
+  color: var(--cool-dark-text);
   background-color: var(--cool-dark);
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  float: left;
-  width: 25%;
+  text-align: center;
+  align-items: center;
   padding: 1em;
-  height: 100%;
-  padding-bottom: 2em;
 }
 
-.card p, ul {
-  color: var(--cool-dark-text);
+sidebar img {
+  width: 60%;
+  margin: 0.5em;
+}
+
+sidebar ul {
   list-style: none;
+}
+
+sidebar h2 {
+  color: var(--cool-dark-header);
+  margin-top: 1em;
 }
 
 .skills {
@@ -92,17 +89,30 @@ footer {
   grid-template-columns: 1fr 1fr;
 }
 
-.container {
+article {
   background-color: var(--cool-light);
+  height: 55em;
+  max-width: 50em;
   display: flex;
   flex-direction: column;
-  padding: 1em;
-}
-
-.container h1 {
- color: var(--cool-light-header);
-}
-
-.container div {
+  padding: 0 1em 0 1em;
+  margin-bottom: 1em;
   color: var(--cool-light-text);
+}
+
+article h1 {
+ color: var(--cool-light-header);
+ margin-top: 1em;
+}
+
+article p, strong {
+  padding-top: 1em;
+}
+
+@media (min-width: 800px) {
+sidebar {
+  height: 56em;
+  float: left;
+  width: 25%;
+}
 }

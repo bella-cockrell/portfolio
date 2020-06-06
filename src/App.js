@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   return (
     <div className='App'>
-      {/* <Alert /> */}
       <body>
         <header>
           <h1> Hi, I'm <span style={{ color: '#2a9d8f' }}>Bella Cockrell</span></h1>
@@ -20,25 +19,20 @@ function App() {
         <nav>
         </nav>
 
-        <sidebar className='card'>
-          <SVGLogo />
-          <article>
+        <main>
+          <sidebar>
+            <SVGLogo />
             <AboutMe />
-          </article>
-          <article>
             <Contact />
-          </article>
-          <article>
             <Skills />
+          </sidebar>
+
+          <article className='container'>
+            <Experience />
+            <Projects />
           </article>
-        </sidebar>
+        </main>
 
-        <article className='container'>
-          <Experience />
-          <Projects />
-        </article>
-
-        <footer />
       </body>
     </div >
   );
